@@ -2,7 +2,8 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+# 随笔: /tags/随笔/
+  星光主页 : "http://starlight.myness.cn/"
 
 # SubNav
 subnav:
@@ -122,5 +123,11 @@ smart_menu:
 friends:
   个人主页（xes）: http://code.xueersi.com/space/11909587
   个人主页: http://myness.cn
+  星光主页 : "http://starlight.myness.cn/"
+  tkinter封面 : "http://code.xueersi.com/home/project/detail?lang=code&pid=13631826&version=offline&form=python&langType=python"
+  游戏机 : "http://code.xueersi.com/home/project/detail?lang=code&pid=6076813&version=offline&form=python&langType=python"
+  查毒程序 : "http://code.xueersi.com/home/project/detail?lang=code&pid=7546913&version=offline&form=python&langType=python"
+  星光浏览器 : "http://code.xueersi.com/home/project/detail?lang=code&pid=6506585&version=offline&form=python&langType=python"
+  
 
 aboutme: 一名Coder<br/>我只是做了我应该做的
