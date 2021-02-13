@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://blog.myness.cn">
-  <title>vector及其派生容器 | 严子昱’Blog</title>
+  <title>新年快乐 | 严子昱’Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1.vector(向量)1.1 导入导入 1#include&lt;vector&gt; 1.2 定义1234567891011121314&#x2F;&#x2F;定义具有10个整型元素的向量（尖括号为元素类型名，它可以是任何合法的数据类型），不具有初值，其值不确定vector&lt;int&gt;a(10);&#x2F;&#x2F;定义具有10个整型元素的向量，且给出的每个元素初值为1vector&lt;int&gt;a(10,1);">
+  <meta name="description" content="祝大家2021年牛年快乐！祝你新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vector及其派生容器">
-<meta property="og:url" content="http://blog.myness.cn/2021/02/06/vector/index.html">
+<meta property="og:title" content="新年快乐">
+<meta property="og:url" content="http://blog.myness.cn/post/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/index.html">
 <meta property="og:site_name" content="严子昱’Blog">
-<meta property="og:description" content="1.vector(向量)1.1 导入导入 1#include&lt;vector&gt; 1.2 定义1234567891011121314&#x2F;&#x2F;定义具有10个整型元素的向量（尖括号为元素类型名，它可以是任何合法的数据类型），不具有初值，其值不确定vector&lt;int&gt;a(10);&#x2F;&#x2F;定义具有10个整型元素的向量，且给出的每个元素初值为1vector&lt;int&gt;a(10,1);">
+<meta property="og:description" content="祝大家2021年牛年快乐！祝你新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞">
 <meta property="og:locale">
-<meta property="article:published_time" content="2021-02-06T21:36:17.000Z">
-<meta property="article:modified_time" content="2021-02-11T09:41:37.116Z">
+<meta property="article:published_time" content="2021-02-11T17:31:34.000Z">
+<meta property="article:modified_time" content="2021-02-13T10:33:59.911Z">
 <meta property="article:author" content="严子昱">
-<meta property="article:tag" content="C++">
+<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="严子昱’Blog" type="application/atom+xml">
@@ -147,45 +147,27 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-vector" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-新年快乐" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      vector及其派生容器
+      新年快乐
     </h1>
   
 
         
-        <a href="/2021/02/06/vector/" class="archive-article-date">
-  	<time datetime="2021-02-06T21:36:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-06</time>
+        <a href="/post/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/" class="archive-article-date">
+  	<time datetime="2021-02-11T17:31:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-11</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="1-vector-向量"><a href="#1-vector-向量" class="headerlink" title="1.vector(向量)"></a>1.vector(向量)</h1><h2 id="1-1-导入"><a href="#1-1-导入" class="headerlink" title="1.1 导入"></a>1.1 导入</h2><p>导入</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br></pre></td></tr></table></figure>
-<h2 id="1-2-定义"><a href="#1-2-定义" class="headerlink" title="1.2 定义"></a>1.2 定义</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//定义具有10个整型元素的向量（尖括号为元素类型名，它可以是任何合法的数据类型），不具有初值，其值不确定</span></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;a(<span class="number">10</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义具有10个整型元素的向量，且给出的每个元素初值为1</span></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;a(<span class="number">10</span>,<span class="number">1</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//用向量b给向量a赋值，a的值完全等价于b的值</span></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;a(b);</span><br><span class="line"></span><br><span class="line"><span class="comment">//将向量b中从0-2（共三个）的元素赋值给a，a的类型为int型</span></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;a(b.begin(),b.begin+<span class="number">3</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> b[<span class="number">7</span>]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>&#125;;</span><br><span class="line"><span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">a</span><span class="params">(b,b+<span class="number">7</span>）;</span></span></span><br></pre></td></tr></table></figure>
-<h2 id="1-3-使用"><a href="#1-3-使用" class="headerlink" title="1.3 使用"></a>1.3 使用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;vector&gt;</span><br><span class="line">vector&lt;int&gt; a,b;</span><br><span class="line">&#x2F;&#x2F;b为向量，将b的0-2个元素赋值给向量a</span><br><span class="line">a.assign(b.begin(),b.begin()+3);</span><br><span class="line">&#x2F;&#x2F;a含有4个值为2的元素</span><br><span class="line">a.assign(4,2);</span><br><span class="line">&#x2F;&#x2F;返回a的最后一个元素</span><br><span class="line">a.back();</span><br><span class="line">&#x2F;&#x2F;返回a的第一个元素</span><br><span class="line">a.front();</span><br><span class="line">&#x2F;&#x2F;返回a的第i元素,当且仅当a存在</span><br><span class="line">a[i];</span><br><span class="line">&#x2F;&#x2F;清空a中的元素</span><br><span class="line">a.clear();</span><br><span class="line">&#x2F;&#x2F;判断a是否为空，空则返回true，非空则返回false</span><br><span class="line">a.empty();</span><br><span class="line">&#x2F;&#x2F;删除a向量的最后一个元素</span><br><span class="line">a.pop_back();</span><br><span class="line">&#x2F;&#x2F;删除a中第一个（从第0个算起）到第二个元素，也就是说删除的元素从a.begin()+1算起（包括它）一直到a.begin()+3（不包括它）结束</span><br><span class="line">a.erase(a.begin()+1,a.begin()+3);</span><br><span class="line">&#x2F;&#x2F;在a的最后一个向量后插入一个元素，其值为5</span><br><span class="line">a.push_back(5);</span><br><span class="line">&#x2F;&#x2F;在a的第一个元素（从第0个算起）位置插入数值5,</span><br><span class="line">a.insert(a.begin()+1,5);</span><br><span class="line">&#x2F;&#x2F;在a的第一个元素（从第0个算起）位置插入3个数，其值都为5</span><br><span class="line">a.insert(a.begin()+1,3,5);</span><br><span class="line">&#x2F;&#x2F;b为数组，在a的第一个元素（从第0个元素算起）的位置插入b的第三个元素到第5个元素（不包括b+6）</span><br><span class="line">a.insert(a.begin()+1,b+3,b+6);</span><br><span class="line">&#x2F;&#x2F;返回a中元素的个数</span><br><span class="line">a.size();</span><br><span class="line">&#x2F;&#x2F;返回a在内存中总共可以容纳的元素个数</span><br><span class="line">a.capacity();</span><br><span class="line">&#x2F;&#x2F;将a的现有元素个数调整至10个，多则删，少则补，其值随机</span><br><span class="line">a.resize(10);</span><br><span class="line">&#x2F;&#x2F;将a的现有元素个数调整至10个，多则删，少则补，其值为2</span><br><span class="line">a.resize(10,2);</span><br><span class="line">&#x2F;&#x2F;将a的容量扩充至100，</span><br><span class="line">a.reserve(100);</span><br><span class="line">&#x2F;&#x2F;b为向量，将a中的元素和b中的元素整体交换</span><br><span class="line">a.swap(b);</span><br><span class="line">&#x2F;&#x2F;b为向量，向量的比较操作还有 !&#x3D; &gt;&#x3D; &gt; &lt;&#x3D; &lt;</span><br><span class="line">a&#x3D;&#x3D;b;</span><br></pre></td></tr></table></figure>
-<h2 id="1-3-常用算法"><a href="#1-3-常用算法" class="headerlink" title="1.3 常用算法"></a>1.3 常用算法</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="comment">//对a中的从a.begin()（包括它）到a.end()（不包括它）的元素进行从小到大排列</span></span><br><span class="line">sort(a.begin(),a.end());</span><br><span class="line"><span class="comment">//对a中的从a.begin()（包括它）到a.end()（不包括它）的元素倒置，但不排列，如a中元素为1,3,2,4,倒置后为4,2,3,1</span></span><br><span class="line">reverse(a.begin(),a.end());</span><br><span class="line"><span class="comment">//把a中的从a.begin()（包括它）到a.end()（不包括它）的元素复制到b中，从b.begin()+1的位置（包括它）开始复制，覆盖掉原有元素</span></span><br><span class="line">copy(a.begin(),a.end(),b.begin()+<span class="number">1</span>);</span><br><span class="line"><span class="comment">//在a中的从a.begin()（包括它）到a.end()（不包括它）的元素中查找10，若存在返回其在向量中的位置</span></span><br><span class="line">find(a.begin(),a.end(),<span class="number">10</span>);</span><br></pre></td></tr></table></figure>
-
-
-<h1 id="2-队列和栈"><a href="#2-队列和栈" class="headerlink" title="2.队列和栈"></a>2.队列和栈</h1><h2 id="2-1-导入"><a href="#2-1-导入" class="headerlink" title="2.1 导入"></a>2.1 导入</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;queue&gt;// 队列 </span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stack&gt;//栈</span></span></span><br></pre></td></tr></table></figure>
-<h2 id="2-2-定义"><a href="#2-2-定义" class="headerlink" title="2.2 定义"></a>2.2 定义</h2><p>其实和vector差不多</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">stack</span>&lt;<span class="keyword">int</span>&gt;  s;<span class="comment">//参数也是数据类型，这是栈的定义方式</span></span><br><span class="line"><span class="built_in">queue</span>&lt;<span class="keyword">int</span>&gt;  q; <span class="comment">//参数是数据类型，这是队列的定义方式</span></span><br></pre></td></tr></table></figure>
-<h2 id="2-3-常用操作"><a href="#2-3-常用操作" class="headerlink" title="2.3 常用操作"></a>2.3 常用操作</h2><p>（这俩其实差不离）</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//栈：</span></span><br><span class="line">s.empty()<span class="comment">//如果栈为空返回true，否则返回false  </span></span><br><span class="line">s.size()<span class="comment">//返回栈中元素的个数  </span></span><br><span class="line">s.pop()<span class="comment">//删除栈顶元素但不返回其值  </span></span><br><span class="line">s.top()<span class="comment">//返回栈顶的元素，但不删除该元素  </span></span><br><span class="line">s.push(X)<span class="comment">//在栈顶压入新元素 ，参数X为要压入的元素</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//队列：</span></span><br><span class="line">q.empty()<span class="comment">// 如果队列为空返回true，否则返回false  </span></span><br><span class="line">q.size() <span class="comment">// 返回队列中元素的个数  </span></span><br><span class="line">q.pop()  <span class="comment">//删除队列首元素但不返回其值  </span></span><br><span class="line">q.front()  <span class="comment">// 返回队首元素的值，但不删除该元素  </span></span><br><span class="line">q.push(X) <span class="comment">//在队尾压入新元素 ，X为要压入的元素</span></span><br><span class="line">q.back() <span class="comment">//返回队列尾元素的值，但不删除该元素  </span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
+        <h1 id="祝大家2021年牛年快乐！"><a href="#祝大家2021年牛年快乐！" class="headerlink" title="祝大家2021年牛年快乐！"></a>祝大家2021年牛年快乐！</h1><p>祝你新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞 百花齐放福星高照 恭贺新春 吉庆有余 福享新春喜气盈门 岁且更始 时乃日新 三阳开泰励精图治 革故鼎新 抬头见喜 举步迎春空谈误国 实干兴邦 国光蔚起 民气昭苏财源广进 恭贺新禧 吉星高照 恭喜发财心想事成 五福临门 五谷丰登 迎春接福春光骀荡 国步龙腾 门凝瑞霭 户发春光<br>风光胜旧 岁序更新 天翔紫燕 地暖春风天高地阔 人寿年丰 天开淑景 人乐丰年万物回春 天开化宇 人在春台 一门瑞气万里春风 春回柳叶 赋献梅花 千祥云集百福骈臻 人登寿域 世跻春台 椒花献颂万马奔腾 全家福气 满院春光 庆云跃日金玉满堂 龙凤呈祥 龙门精神 百业兴旺芳草迎春 江山秀丽 人物风流 江山如画吉星高照 吉祥如意 开春大吉 五谷丰登五福临门 万事顺利 万事顺意 六蓄兴旺荣华富贵 金玉满堂 鹏程万里 笑逐颜开 心旷神怡 莺歌燕舞 招财进宝财源广进 阖家欢乐 飞黄腾达 万事顺意幸福美满 官运亨通 美梦连连 万事顺利恭贺春节 恭贺新喜 恭贺新禧 官运亨通阖家欢乐 龙凤呈祥 龙门精神 红红火火二龙腾飞 三阳开泰 四季平安 五福临门六六大顺 七星高照 八方来财 九九同心官运亨通 美梦连连 万事顺利 荣华富贵荣华富贵 一帆风顺 金玉满堂 龙凤呈祥新年快乐 龙马精神 万事如意 百尺竿红红火火 事业有成 心想事成 一帆风顺国家兴旺 民众安康 国家安庆 人寿安康祝你新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞 百花齐放福星高照 恭贺新春 吉庆有余 福享新春喜气盈门 岁且更始 时乃日新 三阳开泰励精图治 革故鼎新 抬头见喜 举步迎春空谈误国 实干兴邦 国光蔚起 民气昭苏财源广进 恭贺新禧 吉星高照 恭喜发财心想事成 五福临门 五谷丰登 迎春接福春光骀荡 国步龙腾 门凝瑞霭 户发春光<br>风光胜旧 岁序更新 天翔紫燕 地暖春风天高地阔 人寿年丰 天开淑景 人乐丰年万物回春 天开化宇 人在春台 一门瑞气万里春风 春回柳叶 赋献梅花 千祥云集百福骈臻 人登寿域 世跻春台 椒花献颂万马奔腾 全家福气 满院春光 庆云跃日金玉满堂 龙凤呈祥 龙门精神 百业兴旺芳草迎春 江山秀丽 人物风流 江山如画吉星高照 吉祥如意 开春大吉 五谷丰登五福临门 万事顺利 万事顺意 六蓄兴旺荣华富贵 金玉满堂 鹏程万里 笑逐颜开 心旷神怡 莺歌燕舞 招财进宝财源广进 阖家欢乐 飞黄腾达 万事顺意幸福美满 官运亨通 美梦连连 万事顺利恭贺春节 恭贺新喜 恭贺新禧 官运亨通阖家欢乐 龙凤呈祥 龙门精神 红红火火二龙腾飞 三阳开泰 四季平安 五福临门六六大顺 七星高照 八方来财 九九同心官运亨通 美梦连连 万事顺利 荣华富贵荣华富贵 一帆风顺 金玉满堂 龙凤呈祥新年快乐 龙马精神 万事如意 百尺竿红红火火 事业有成 心想事成 一帆风顺国家兴旺 民众安康 国家安庆 人寿安康祝你们新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞 百花齐放福星高照 恭贺新春 吉庆有余 福享新春喜气盈门 岁且更始 时乃日新 三阳开泰励精图治 革故鼎新 抬头见喜 举步迎春空谈误国 实干兴邦 国光蔚起 民气昭苏财源广进 恭贺新禧 吉星高照 恭喜发财心想事成 五福临门 五谷丰登 迎春接福春光骀荡 国步龙腾 门凝瑞霭 户发春光<br>风光胜旧 岁序更新 天翔紫燕 地暖春风天高地阔 人寿年丰 天开淑景 人乐丰年万物回春 天开化宇 人在春台 一门瑞气万里春风 春回柳叶 赋献梅花 千祥云集百福骈臻 人登寿域 世跻春台 椒花献颂万马奔腾 全家福气 满院春光 庆云跃日金玉满堂 龙凤呈祥 龙门精神 百业兴旺芳草迎春 江山秀丽 人物风流 江山如画吉星高照 吉祥如意 开春大吉 五谷丰登五福临门 万事顺利 万事顺意 六蓄兴旺荣华富贵 金玉满堂 鹏程万里 笑逐颜开 心旷神怡 莺歌燕舞 招财进宝财源广进 阖家欢乐 飞黄腾达 万事顺意幸福美满 官运亨通 美梦连连 万事顺利恭贺春节 恭贺新喜 恭贺新禧 官运亨通阖家欢乐 龙凤呈祥 龙门精神 红红火火二龙腾飞 三阳开泰 四季平安 五福临门六六大顺 七星高照 八方来财 九九同心官运亨通 美梦连连 万事顺利 荣华富贵荣华富贵 一帆风顺 金玉满堂 龙凤呈祥新年快乐 龙马精神 万事如意 百尺竿红红火火 事业有成 心想事成 一帆风顺国家兴旺 民众安康 国家安庆 人寿安康祝你新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞 百花齐放福星高照 恭贺新春 吉庆有余 福享新春喜气盈门 岁且更始 时乃日新 三阳开泰励精图治 革故鼎新 抬头见喜 举步迎春空谈误国 实干兴邦 国光蔚起 民气昭苏财源广进 恭贺新禧 吉星高照 恭喜发财心想事成 五福临门 五谷丰登 迎春接福春光骀荡 国步龙腾 门凝瑞霭 户发春光<br>风光胜旧 岁序更新 天翔紫燕 地暖春风天高地阔 人寿年丰 天开淑景 人乐丰年万物回春 天开化宇 人在春台 一门瑞气万里春风 春回柳叶 赋献梅花 千祥云集百福骈臻 人登寿域 世跻春台 椒花献颂万马奔腾 全家福气 满院春光 庆云跃日金玉满堂 龙凤呈祥 龙门精神 百业兴旺芳草迎春 江山秀丽 人物风流 江山如画吉星高照 吉祥如意 开春大吉 五谷丰登五福临门 万事顺利 万事顺意 六蓄兴旺荣华富贵 金玉满堂 鹏程万里 笑逐颜开 心旷神怡 莺歌燕舞 招财进宝财源广进 阖家欢乐 飞黄腾达 万事顺意幸福美满 官运亨通 美梦连连 万事顺利恭贺春节 恭贺新喜 恭贺新禧 官运亨通阖家欢乐 龙凤呈祥 龙门精神 红红火火二龙腾飞 三阳开泰 四季平安 五福临门六六大顺 七星高照 八方来财 九九同心官运亨通 美梦连连 万事顺利 荣华富贵荣华富贵 一帆风顺 金玉满堂 龙凤呈祥新年快乐 龙马精神 万事如意 百尺竿红红火火 事业有成 心想事成 一帆风顺国家兴旺 民众安康 国家安庆 人寿安康祝你们新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞 百花齐放福星高照 恭贺新春 吉庆有余 福享新春喜气盈门 岁且更始 时乃日新 三阳开泰励精图治 革故鼎新 抬头见喜 举步迎春空谈误国 实干兴邦 国光蔚起 民气昭苏财源广进 恭贺新禧 吉星高照 恭喜发财心想事成 五福临门 五谷丰登 迎春接福春光骀荡 国步龙腾 门凝瑞霭 户发春光<br>风光胜旧 岁序更新 天翔紫燕 地暖春风天高地阔 人寿年丰 天开淑景 人乐丰年万物回春 天开化宇 人在春台 一门瑞气万里春风 春回柳叶 赋献梅花 千祥云集百福骈臻 人登寿域 世跻春台 椒花献颂万马奔腾 全家福气 满院春光 庆云跃日金玉满堂 龙凤呈祥 龙门精神 百业兴旺芳草迎春 江山秀丽 人物风流 江山如画吉星高照 吉祥如意 开春大吉 五谷丰登五福临门 万事顺利 万事顺意 六蓄兴旺荣华富贵 金玉满堂 鹏程万里 笑逐颜开 心旷神怡 莺歌燕舞 招财进宝财源广进 阖家欢乐 飞黄腾达 万事顺意幸福美满 官运亨通 美梦连连 万事顺利恭贺春节 恭贺新喜 恭贺新禧 官运亨通阖家欢乐 龙凤呈祥 龙门精神 红红火火二龙腾飞 三阳开泰 四季平安 五福临门六六大顺 七星高照 八方来财 九九同心官运亨通 美梦连连 万事顺利 荣华富贵荣华富贵 一帆风顺 金玉满堂 龙凤呈祥新年快乐 龙马精神 万事如意 百尺竿红红火火 事业有成 心想事成 一帆风顺国家兴旺 民众安康 国家安庆 人寿安康祝你新年快乐 学业有成 福星高照 万事如意日月皆春 江山永固 祖国长春 红梅献岁喜鹊鸣春 花香四季 月满一轮 花迎春光新春快乐 福寿安康 岁岁平安 年年有余恭喜发财 财源亨通 金玉满堂 喜气洋洋万事如意 大吉大利 三阳开泰 财源广进牛耕绿野 虎啸青山 无边春舍 有福人家四时喜庆 五谷丰登 四时如意 万事遂心龙吟国瑞 虎啸年丰 龙兴华夏 燕舞新春平安无恙 吉庆有余 百花献瑞 百花齐放福星高照 恭贺新春 吉庆有余 福享新春喜气盈门 岁且更始 时乃日新 三阳开泰励精图治 革故鼎新 抬头见喜 举步迎春空谈误国 实干兴邦 国光蔚起 民气昭苏财源广进 恭贺新禧 吉星高照 恭喜发财心想事成 五福临门 五谷丰登 迎春接福春光骀荡 国步龙腾 门凝瑞霭 户发春光<br>风光胜旧 岁序更新 天翔紫燕 地暖春风天高地阔 人寿年丰 天开淑景 人乐丰年万物回春 天开化宇 人在春台 一门瑞气万里春风 春回柳叶 赋献梅花 千祥云集百福骈臻 人登寿域 世跻春台 椒花献颂万马奔腾 全家福气 满院春光 庆云跃日金玉满堂 龙凤呈祥 龙门精神 百业兴旺芳草迎春 江山秀丽 人物风流 江山如画吉星高照 吉祥如意 开春大吉 五谷丰登五福临门 万事顺利 万事顺意 六蓄兴旺荣华富贵 金玉满堂 鹏程万里 笑逐颜开 心旷神怡 莺歌燕舞 招财进宝财源广进 阖家欢乐 飞黄腾达 万事顺意幸福美满 官运亨通 美梦连连 万事顺利恭贺春节 恭贺新喜 恭贺新禧 官运亨通阖家欢乐 龙凤呈祥 龙门精神 红红火火二龙腾飞 三阳开泰 四季平安 五福临门六六大顺 七星高照 八方来财 九九同心官运亨通 美梦连连 万事顺利 荣华富贵荣华富贵 一帆风顺 金玉满堂 龙凤呈祥新年快乐 </p>
 
       
 
@@ -199,7 +181,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">C++</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
         		</li>
       		
 		</ul>
@@ -255,7 +237,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://blog.myness.cn/2021/02/06/vector/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://blog.myness.cn/post/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -269,18 +251,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/02/11/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          新年快乐
-        
-      </div>
-    </a>
   
-  
-    <a href="/2021/02/06/xingyunlib/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">xingyunlib</div>
+    <a href="/post/vector/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">vector及其派生容器</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -307,7 +280,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-vector-%E5%90%91%E9%87%8F"><span class="toc-number">1.</span> <span class="toc-text">1.vector(向量)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E5%AF%BC%E5%85%A5"><span class="toc-number">1.1.</span> <span class="toc-text">1.1 导入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E5%AE%9A%E4%B9%89"><span class="toc-number">1.2.</span> <span class="toc-text">1.2 定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-%E4%BD%BF%E7%94%A8"><span class="toc-number">1.3.</span> <span class="toc-text">1.3 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95"><span class="toc-number">1.4.</span> <span class="toc-text">1.3 常用算法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E9%98%9F%E5%88%97%E5%92%8C%E6%A0%88"><span class="toc-number">2.</span> <span class="toc-text">2.队列和栈</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-%E5%AF%BC%E5%85%A5"><span class="toc-number">2.1.</span> <span class="toc-text">2.1 导入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E5%AE%9A%E4%B9%89"><span class="toc-number">2.2.</span> <span class="toc-text">2.2 定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 常用操作</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%A5%9D%E5%A4%A7%E5%AE%B62021%E5%B9%B4%E7%89%9B%E5%B9%B4%E5%BF%AB%E4%B9%90%EF%BC%81"><span class="toc-number">1.</span> <span class="toc-text">祝大家2021年牛年快乐！</span></a></li></ol>
                     </div>
                 </span>
             </div>
